@@ -192,7 +192,7 @@ const (
 	ViewPvPConnect
 	ViewPvPFight
 )
-const SkipEULA = false
+const SkipEULA = true
 
 type EULAModel struct {
 	gameManager  *core.ExtendedGameManager
